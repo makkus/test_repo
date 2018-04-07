@@ -1,0 +1,38 @@
+---
+galaxy_info:
+  author: wilmardo
+  description: |
+    Role to install Plex Media Server, Tautulli (former PlexPy) and Plexupdate in one go!
+
+  license: BSD-3-Clause-Clear
+
+  min_ansible_version: 2.2
+
+  platforms:
+    - name: EL
+      versions:
+        - 7
+        - 6
+    - name: Fedora
+      versions:
+        - 27
+        - 26
+
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+
+  galaxy_tags:
+    - plex
+    - plexmediaserver
+    - tautulli
+    - plexupdate
+    - plexpy
+
+dependencies: []

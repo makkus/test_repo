@@ -1,0 +1,8 @@
+---
+- include: plex.yml
+
+- include: tautulli.yml
+  when: tautulli_install
+
+- include: plexupdate.yml
+  when: plexupdate_install
