@@ -1,0 +1,12 @@
+doc:
+  author: Markus Binsteiner
+  homepage: https://docs.freckles.io/en/latest/adapters/ansible-tasks.html
+  help: adapter that prints out a custom message, or 'hello world'
+  short_help: hello world adapter
+
+args:
+  msg:
+    default:
+      - "Hello World"
+    doc:
+      help: "the string to print"
